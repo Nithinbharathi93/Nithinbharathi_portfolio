@@ -14,22 +14,22 @@
    <link rel="apple-touch-icon" href="./assets/logo.svg">
    <link rel="shortcut icon" type="image/png" href="./assets/logo.svg">
    <!-- CSS here -->
-   <link rel="stylesheet" href="./css/homecss/homecss1.css">
-   <link rel="stylesheet" href="./css/homecss/homecss2.css">
-   <!-- <link rel="stylesheet" href="./css/homecss/homecss3.css"> -->
-   <link rel="stylesheet" href="./css/homecss/homecss4.css">
-   <link rel="stylesheet" href="./css/homecss/homecss5.css">
-   <link rel="stylesheet" href="./css/homecss/homecss6.css">
-   <link rel="stylesheet" href="./css/homecss/homecss7.css">
-   <link rel="stylesheet" href="./css/homecss/homecss8.css">
-   <link rel="stylesheet" href="./css/homecss/homecss9.css">
-   <link rel="stylesheet" href="./css/homecss/homecss10.css">
-   <link rel="stylesheet" href="./css/homecss/homecss11.css">
-   <link rel="stylesheet" href="./css/homecss/homecss12.css">
-   <link rel="stylesheet" href="./css/homecss/homecss13.css">
-   <link rel="stylesheet" href="./css/homecss/homecss14.css">
-   <link rel="stylesheet" href="./css/homecss/homecss15.css">
-   <link rel="stylesheet" href="./css/homecss/homecss16.css">
+   <link rel="stylesheet" href="./css/homecss1.css">
+   <link rel="stylesheet" href="./css/homecss2.css">
+   <link rel="stylesheet" href="./css/homecss3.css">
+   <link rel="stylesheet" href="./css/homecss4.css">
+   <link rel="stylesheet" href="./css/homecss5.css">
+   <link rel="stylesheet" href="./css/homecss6.css">
+   <link rel="stylesheet" href="./css/homecss7.css">
+   <link rel="stylesheet" href="./css/homecss8.css">
+   <link rel="stylesheet" href="./css/homecss9.css">
+   <link rel="stylesheet" href="./css/homecss10.css">
+   <link rel="stylesheet" href="./css/homecss11.css">
+   <link rel="stylesheet" href="./css/homecss12.css">
+   <link rel="stylesheet" href="./css/homecss13.css">
+   <link rel="stylesheet" href="./css/homecss14.css">
+   <link rel="stylesheet" href="./css/homecss15.css">
+   <link rel="stylesheet" href="./css/homecss16.css">
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <!-- <base href="https://themejunction.net/html/gerold/demo/index-2.html"> -->
 </head>
@@ -88,13 +88,13 @@
                         <li><a href="#theprojdiv">Portfolios</a></li>
                         <li><a href="services.html">Services</a></li>
                         <li><a href="#theexpdiv">Experience</a></li>
-                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="#thecontdiv">Contact</a></li>
                      </ul>
                   </nav>
                </div>
                <div class="mobile-menu d-lg-none"></div>
                <div class="header-button">
-                  <a href="#" class="tj-btn-primary-2">Resume
+                  <a href="./Nithin_Resume.pdf" class="tj-btn-primary-2">Resume
                      <span class="icon_box">
                         <i class="flaticon-download icon_first"></i>
                         <i class="flaticon-download icon_second"></i>
@@ -1526,6 +1526,7 @@
                </div>
             </div>
          </div>
+         <div id="#thecontdiv"></div>
       </section>
       <!-- BRAND SECTION END -->
 
@@ -1547,19 +1548,16 @@
                         <div class="tj-contact-form style-2">
                            <form id="contact-form">
                               <div class="form_group">
-                                 <input type="text" name="conName" id="conName" placeholder="First name" autocomplete="off">
+                                 <input name="Name" type="text" name="conName" id="conName" placeholder="Name" autocomplete="off">
                               </div>
                               <div class="form_group">
-                                 <input type="text" name="conLName" id="conLName" placeholder="Last name" autocomplete="off">
+                                 <input name="Email" type="email" name="conEmail" id="conEmail" placeholder="Email address" autocomplete="off">
                               </div>
                               <div class="form_group">
-                                 <input type="email" name="conEmail" id="conEmail" placeholder="Email address" autocomplete="off">
+                                 <input name="Phone" type="tel" name="conPhone" id="conPhone" placeholder="Phone number" autocomplete="off">
                               </div>
                               <div class="form_group">
-                                 <input type="tel" name="conPhone" id="conPhone" placeholder="Phone number" autocomplete="off">
-                              </div>
-                              <div class="form_group">
-                                 <textarea name="conMessage" id="conMessage" placeholder="Message"></textarea>
+                                 <textarea name="Message" id="conMessage" placeholder="Message"></textarea>
                               </div>
                               <div class="form_btn">
                                  <button type="submit" class="btn tj-btn-primary-2">Send Message
@@ -1658,20 +1656,21 @@
          <div class="row">
             <div class="col-md-12 text-center">
                <div class="footer-logo-box">
-                  <a href="#"><img src="data:image/png;base64,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" alt=""></a>
+                  <a href="#"><img src="./assets/logo.svg" alt=""></a>
                </div>
                <div class="footer-menu">
                   <nav>
                      <ul>
-                        <li><a href="about.html">About</a></li>
+                        <li><a href="#theabtdiv">About</a></li>
+                        <li><a href="#theprojdiv">Portfolios</a></li>
                         <li><a href="services.html">Services</a></li>
-                        <li><a href="portfolio.html">Portfolios</a></li>
-                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="#theexpdiv">Experience</a></li>
+                        <li><a href="#thecontdiv">Contact</a></li>
                      </ul>
                   </nav>
                </div>
                <div class="copy-text style-2">
-                  <p>© 2024 All rights reserved by <a href="#" target="_blank">ThemeJunction</a></p>
+                  <p>© 2024 All rights reserved by <a href="#" target="_blank">Nithinbharathi</a></p>
                </div>
             </div>
          </div>
