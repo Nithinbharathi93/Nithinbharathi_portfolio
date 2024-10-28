@@ -164,6 +164,13 @@
 	}
 	/* hero */
 	.hero-wrrapper {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		background: var(--tj-theme-accent-2);
+		border: 1px solid var(--tj-theme-secondary);
+		border-radius: 15px;
 		column-gap: 30px;
 		padding: 30px 20px;
 	}
